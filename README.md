@@ -18,7 +18,7 @@ las rutas optimas segun el tiempo minimo de recorrido
 
 
                                                                  
-.                         ![fig1](https://user-images.githubusercontent.com/88350743/141019547-a7c0e56e-ebe8-4402-9a39-e2755e69b7af.png)
+.                        ![fig1](https://user-images.githubusercontent.com/88350743/141019547-a7c0e56e-ebe8-4402-9a39-e2755e69b7af.png)
 
 .                                  Figura 1: Mapa de Principal
                                              
