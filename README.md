@@ -47,7 +47,11 @@ a continuacion las rutas mas omptimas para los viajes (O=0, D=9), (O=4, D=5) y (
 .                                                     ENTREGA 3
 
 Imagen Juan José Parada:
+
+
 ![Figure_1](https://user-images.githubusercontent.com/88350743/141524621-c9bd59ca-7948-4ae5-b9b3-5b6f77fd5940.png)
+
+
                             Figura 1: JUAN JOSÉ PARADA
 
 
