@@ -29,6 +29,8 @@ a continuacion las rutas mas omptimas para los viajes (O=0, D=9), (O=4, D=5) y (
 .                         ![fig2](https://user-images.githubusercontent.com/88350743/141019549-62bfc4e9-74f6-4eef-b4fe-dafe4ce413b7.png)
 
 .                                  Figura 2: Mapa para camino optimo de 0 a 9.
+
+
                                             
                                             
 .                         ![fig3](https://user-images.githubusercontent.com/88350743/141019550-71c62ae0-3f76-4c87-925c-bb911462552a.png)
@@ -39,3 +41,13 @@ a continuacion las rutas mas omptimas para los viajes (O=0, D=9), (O=4, D=5) y (
 .                         ![fig4](https://user-images.githubusercontent.com/88350743/141019551-7a65e826-0ebf-4120-ac6c-8384c463603b.png)
    
 .                                  Figura 4: Mapa para camino optimo de 0 a 4.
+
+
+
+.                                                     ENTREGA 3
+
+Imagen Juan José Parada:
+![Figure_1](https://user-images.githubusercontent.com/88350743/141524621-c9bd59ca-7948-4ae5-b9b3-5b6f77fd5940.png)
+                            Figura 1: JUAN JOSÉ PARADA
+
+
