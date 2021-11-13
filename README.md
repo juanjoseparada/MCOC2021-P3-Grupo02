@@ -55,3 +55,8 @@ Imagen Juan José Parada:
                             Figura 1: JUAN JOSÉ PARADA
 
 
+Imagen José Tomás Weihrauch Varela:
+
+![Captura de pantalla 2021-11-12 a la(s) 22 13 50](https://user-images.githubusercontent.com/88339852/141600194-1800d54d-a3a3-4b38-8a82-303f217cae7f.png)
+
+                            Figura 2: JOSÉ TOMÁS WEIHRAUCH VARELA
