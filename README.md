@@ -127,15 +127,17 @@ Tambien se buscaron los flujos y costos por arcos, mediante estas funciones, las
 
                              Figura 4.3: Grafo de Flujo por arco
                              
-Despues se verifico el equilibrio y se puede notar en la siguiente imagen estas comparaciones, donde se notan en amarillo las rutas que fueron elegidas ya que las que no estan marcadas tienen un costo mucho mayor a las otras.
+En esta imagen se pueden apreciar los porcentajes de error para los flujos y costos por cada arco.
 
 ![WhatsApp Image 2021-11-16 at 17 22 12 (2)](https://user-images.githubusercontent.com/88350743/142065008-df5e903e-c78f-4758-92ba-f7df7c41162c.jpeg)
                                                       
                                Figura 4.4 Costos y flujos por arcos
+                               
+Para la validacion de los resultados se utilizo excel, herramienta que nos permitio llevar a cabo el trabajo de una manera clara, comoda y ordenada.        
+En la primera figura se puede observar el costo total por ruta para cada uno de los OD dados por la matriz OD, en donde se discriminaron los costos menores para cada una de estas y se calculan sus respectivos porcentajes de error.                               
                                        
 ![WhatsApp Image 2021-11-16 at 17 57 51](https://user-images.githubusercontent.com/88350743/142065012-b68f9044-9a59-43cf-af1a-fe26c80dbde4.jpeg)
 
                               Figura 4.4 Variacion Costos totales por ruta
 
-Para la validacion de los resultados se utilizo excel, herramienta que nos permitio llevar a cabo el trabajo de una manera clara, comoda y ordenada.        
-En la primera figura se puede observar el costo total por ruta para cada uno de los OD dados por la matriz OD, en donde se discriminaron los costos menores para cada una de estas y se calculan sus respectivos porcentajes de error.
+
