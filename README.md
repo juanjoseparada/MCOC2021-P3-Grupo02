@@ -60,3 +60,11 @@ Imagen José Tomás Weihrauch Varela:
 ![Captura de pantalla 2021-11-12 a la(s) 22 13 50](https://user-images.githubusercontent.com/88339852/141600194-1800d54d-a3a3-4b38-8a82-303f217cae7f.png)
 
                             Figura 2: JOSÉ TOMÁS WEIHRAUCH VARELA
+                            
+.                                                     ENTREGA 5
+
+![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
+![Flujos](https://user-images.githubusercontent.com/88350743/142061070-a8e6cb87-39b0-4b2a-aebd-962d5a847bf3.png)
+![Funciones](https://user-images.githubusercontent.com/88350743/142061093-4399f4ee-405e-4fab-8a51-1db0789eb3ba.png)
+
+
