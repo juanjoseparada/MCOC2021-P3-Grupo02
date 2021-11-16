@@ -124,7 +124,7 @@ Tambien se buscaron los flujos y costos por arcos, mediante estas funciones, las
 
                              Figura 4.2: Grafo de Flujo por arco
                              
-Despues se verifico el equilibrio y se puede notar en la siguiente imagen estas comparaciones, donde se notan en amarillo las rutas que fueren elegidas ya que las que no estan marcadas tienen un costo mucho mayor a las marcadas.
+Despues se verifico el equilibrio y se puede notar en la siguiente imagen estas comparaciones, donde se notan en amarillo las rutas que fueron elegidas ya que las que no estan marcadas tienen un costo mucho mayor a las otras.
 
 ![WhatsApp Image 2021-11-16 at 17 22 12 (2)](https://user-images.githubusercontent.com/88350743/142065008-df5e903e-c78f-4758-92ba-f7df7c41162c.jpeg)
                                                       
