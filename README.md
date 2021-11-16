@@ -98,7 +98,7 @@ Se obtuvieron 3 tipos de funciones distintas las cuales fueron asignadas a 9 tra
             se_asigno_demanda=True              
 """
 
-En el codigo anterior se ingresa un incremento, el cual fue multiplicado a las demandas para así trabajar de una manera mas precisa, donde despues buscando en la matriz origen destino (OD) los nodos se pudieron obtener las mejores rutas gracias a """path=nx.dijkstra_path(G,origen,destino,weight=costo)""" . 
+En el codigo anterior se ingresa un incremento, el cual fue multiplicado a las demandas para así trabajar de una manera mas precisa, donde despues buscando en la matriz origen destino (OD) donde dentro ya de OD se busca Key[0] (ORIGEN) y Key[1] (DESTINO). Y ya con los nodos y posibles caminos se pudieron obtener las mejores rutas gracias a """path=nx.dijkstra_path(G,origen,destino,weight=costo)""".
 
 """
 
@@ -110,13 +110,20 @@ En el codigo anterior se ingresa un incremento, el cual fue multiplicado a las d
         
 """
 
+Tambien se buscaron los flujos y costos por arcos, mediante estas funciones, las cuales se puede ver en las imagenes siguientes:
 
+![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
+
+                             Figura 4.2: Grafo de Costo por arco
 
 ![Funciones](https://user-images.githubusercontent.com/88350743/142061093-4399f4ee-405e-4fab-8a51-1db0789eb3ba.png)
+
                               Figura 4.1: Grafo de funciones
-![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
-                             Figura 4.2: Grafo de Costo por arco
+
 ![Flujos](https://user-images.githubusercontent.com/88350743/142061070-a8e6cb87-39b0-4b2a-aebd-962d5a847bf3.png)
+
                              Figura 4.2: Grafo de Flujo por arco
+                             
+Despues se verifico el equilibrio y se puede notar en la siguiente imagen estas comparaciones, donde se notan en amarillo las rutas que fueren elegidas ya que las que no estan marcadas tienen un costo mucho mayor a las marcadas.
 
 
