@@ -61,10 +61,42 @@ Imagen José Tomás Weihrauch Varela:
 
                             Figura 2: JOSÉ TOMÁS WEIHRAUCH VARELA
                             
-.                                                     ENTREGA 5
+.                                                     ENTREGA 4
+"""
+incrementos = [0.1]*9 + [0.01]*9 + [0.001]*10 
+ 
+for i in incrementos:    
+    se_asigno_demanda=False
+    
+    for key  in OD:
+    
+        origen=key[0]
+        destino=key[1]
+        demanda_actual=OD[key]
+        demanda_objetivo=OD_target[key]
+        
+        if demanda_actual>0:
+       
+            path=nx.dijkstra_path(G,origen,destino,weight=costo)
+            
+            Nparadas = len(path)
+          
+            for i_parada in range(Nparadas-1):
+                o=path[i_parada]
+                d=path[i_parada+1]
+                
+                G.edges[o,d]["flujo"] += (i*demanda_objetivo)
+                
+            
+            OD[key]-=(i*demanda_objetivo)
+            se_asigno_demanda=True              
+"""
 
-![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
-![Flujos](https://user-images.githubusercontent.com/88350743/142061070-a8e6cb87-39b0-4b2a-aebd-962d5a847bf3.png)
 ![Funciones](https://user-images.githubusercontent.com/88350743/142061093-4399f4ee-405e-4fab-8a51-1db0789eb3ba.png)
+Figura 4.1: Grafo de funciones
+![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
+Figura 4.2: Grafo de Costo por arco
+![Flujos](https://user-images.githubusercontent.com/88350743/142061070-a8e6cb87-39b0-4b2a-aebd-962d5a847bf3.png)
+Figura 4.2: Grafo de Flujo por arco
 
 
