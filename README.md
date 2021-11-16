@@ -62,11 +62,17 @@ Imagen José Tomás Weihrauch Varela:
                             Figura 2: JOSÉ TOMÁS WEIHRAUCH VARELA
                             
 .                                                     ENTREGA 4
+
+Se obtuvieron 3 tipos de funciones distintas las cuales fueron asignadas a 9 tramos distintos. Donde gracias a la ayuda de la clase se pudo obtener el codigo para poder establecer el equilibrio de Wardrop para diferentes rutas, las cuales podían tomar varios tramos con sus diferentes combinaciones.
+
+
+
 """
-incrementos = [0.1]*9 + [0.01]*9 + [0.001]*10 
- 
-for i in incrementos:    
-    se_asigno_demanda=False
+    
+    incrementos = [0.1]*9 + [0.01]*9 + [0.001]*10 
+
+    for i in incrementos:    
+        se_asigno_demanda=False
     
     for key  in OD:
     
@@ -92,11 +98,25 @@ for i in incrementos:
             se_asigno_demanda=True              
 """
 
+En el codigo anterior se ingresa un incremento, el cual fue multiplicado a las demandas para así trabajar de una manera mas precisa, donde despues buscando en la matriz origen destino (OD) los nodos se pudieron obtener las mejores rutas gracias a """path=nx.dijkstra_path(G,origen,destino,weight=costo)""" . 
+
+"""
+
+    for ni,nf in G.edges:
+        arco=G.edges[ni,nf]
+        funcosto_arco = arco["fcosto"]
+        flujo_arco=arco["flujo"]
+        arco["costo"]=funcosto_arco(flujo_arco)
+        
+"""
+
+
+
 ![Funciones](https://user-images.githubusercontent.com/88350743/142061093-4399f4ee-405e-4fab-8a51-1db0789eb3ba.png)
-Figura 4.1: Grafo de funciones
+                              Figura 4.1: Grafo de funciones
 ![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
-Figura 4.2: Grafo de Costo por arco
+                             Figura 4.2: Grafo de Costo por arco
 ![Flujos](https://user-images.githubusercontent.com/88350743/142061070-a8e6cb87-39b0-4b2a-aebd-962d5a847bf3.png)
-Figura 4.2: Grafo de Flujo por arco
+                             Figura 4.2: Grafo de Flujo por arco
 
 
