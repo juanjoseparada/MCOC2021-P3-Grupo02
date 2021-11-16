@@ -126,4 +126,8 @@ Tambien se buscaron los flujos y costos por arcos, mediante estas funciones, las
                              
 Despues se verifico el equilibrio y se puede notar en la siguiente imagen estas comparaciones, donde se notan en amarillo las rutas que fueren elegidas ya que las que no estan marcadas tienen un costo mucho mayor a las marcadas.
 
+![WhatsApp Image 2021-11-16 at 17 22 12 (2)](https://user-images.githubusercontent.com/88350743/142065008-df5e903e-c78f-4758-92ba-f7df7c41162c.jpeg)
+                                                      
+                                       
+![WhatsApp Image 2021-11-16 at 17 57 51](https://user-images.githubusercontent.com/88350743/142065012-b68f9044-9a59-43cf-af1a-fe26c80dbde4.jpeg)
 
