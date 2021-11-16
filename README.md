@@ -114,20 +114,28 @@ Tambien se buscaron los flujos y costos por arcos, mediante estas funciones, las
 
 ![Costos_arcos](https://user-images.githubusercontent.com/88350743/142061055-63ca99a4-c8bc-41ab-a649-a9d0ec134bbd.png)
 
-                             Figura 4.2: Grafo de Costo por arco
+                             Figura 4.1: Grafo de Costo por arco
 
 ![Funciones](https://user-images.githubusercontent.com/88350743/142061093-4399f4ee-405e-4fab-8a51-1db0789eb3ba.png)
 
-                              Figura 4.1: Grafo de funciones
+                              Figura 4.2: Grafo de funciones
+                              
+                              
+                             
 
 ![Flujos](https://user-images.githubusercontent.com/88350743/142061070-a8e6cb87-39b0-4b2a-aebd-962d5a847bf3.png)
 
-                             Figura 4.2: Grafo de Flujo por arco
+                             Figura 4.3: Grafo de Flujo por arco
                              
 Despues se verifico el equilibrio y se puede notar en la siguiente imagen estas comparaciones, donde se notan en amarillo las rutas que fueron elegidas ya que las que no estan marcadas tienen un costo mucho mayor a las otras.
 
 ![WhatsApp Image 2021-11-16 at 17 22 12 (2)](https://user-images.githubusercontent.com/88350743/142065008-df5e903e-c78f-4758-92ba-f7df7c41162c.jpeg)
                                                       
+                               Figura 4.4 Costos y flujos por arcos
                                        
 ![WhatsApp Image 2021-11-16 at 17 57 51](https://user-images.githubusercontent.com/88350743/142065012-b68f9044-9a59-43cf-af1a-fe26c80dbde4.jpeg)
 
+                              Figura 4.4 Variacion Costos totales por ruta
+
+Para la validacion de los resultados se utilizo excel, herramienta que nos permitio llevar a cabo el trabajo de una manera clara, comoda y ordenada.        
+En la primera figura se puede observar el costo total por ruta para cada uno de los OD dados por la matriz OD, en donde se discriminaron los costos menores para cada una de estas y se calculan sus respectivos porcentajes de error.
