@@ -141,3 +141,67 @@ En la primera figura se puede observar el costo total por ruta para cada uno de 
                               Figura 4.4 Variacion Costos totales por ruta
 
 
+   .                                                      Entrega 5
+   
+   
+¿Cómo seleccionó las zonas a incluir?
+
+Las zonas a incluir se seleccionaron mediante la siguiente parte del código:
+
+        wou =[]
+        i=0
+        zona_all=[]
+        for i in id_zonas_a_graficar:
+            zona_all.append(i)
+
+        for wa in open('mod.csv'):
+            sl = wa.split(',')
+            o = int(sl[0])
+            d = int(sl[1])
+            dda = np.double(sl[2])
+            # print (o)
+            if o in id_zonas_a_graficar or d in id_zonas_a_graficar and dda > 100:
+                zona_all.append(o)
+                zona_all.append(d)
+
+Donde dentro del archivo Excel que contenía los origenes y destinos con sus demandas respectivas se buscó las que ocupaban AVO y tuvieran una demanda mayor a 100.
+
+
+
+¿Cuántas zonas quedaron seleccionadas son?
+
+[599, 153, 146, 683, 666, 677, 682, 306, 307, 287, 288, 289, 290, 291, 304, 266, 267, 434, 435, 281, 426, 283, 440, 278, 439, 471, 684, 79, 112, 143, 150, 581, 297, 497, 537, 314, 500, 160, 0, 163, 220, 201, 193, 232, 206, 200, 292, 235, 490, 498, 18, 496, 369, 279, 274, 374, 167, 509, 478, 286, 516, 512, 277, 284, 425, 265, 476, 442, 511, 218, 485, 46, 491, 508, 445, 303, 20, 268, 280, 47, 300, 1, 312, 295, 276, 668, 506, 548, 505, 305, 302, 667, 49, 330, 732, 12, 675, 513, 299, 319, 296, 293, 298, 495, 294, 23, 739, 320, 448, 504, 13, 614, 627, 325, 148, 313, 514, 309, 327, 301, 673, 671, 672, 547, 308, 328, 332, 333, 331, 681, 680, 370, 364, 371, 386, 388, 407, 578, 433, 438, 424, 443, 36, 773, 430, 431, 760, 444, 642, 502, 510, 696, 725, 685, 695, 724, 543, 577, 580, 763, 2, 310, 670, 315]
+
+Que suman un total de 164 zonas.
+
+
+
+¿Cuántos viajes deberá asignar?
+
+
+
+
+
+¿Cuales son los pares OD que espera Ud. que generen mayor flujo en AVO?
+
+Los pares OD que se esperan que tengan mayor flujo en AVO son los que quedan aledaños a este mismo tramo, ya que los viajes entre estas zonas utilizarían casi siempre este tramo de AVO. Esto se pudo comprobar mediante el siguiente código, el cual busca los pares con un flujo mayor de lo normal y que ocupe el tramo de AVO.
+
+    if o in id_zonas_a_graficar or d in id_zonas_a_graficar:
+            if dda > 1500:
+                zona_alto_flujo.append(wa)
+                zona_alto_flujo.append(o)
+                zona_alto_flujo.append(d)
+                i+=dda
+                # print(f(" Origen {o}" Destino))
+                print (f" PAR OD [{o}, {d}]  con demanda {dda}")
+            else:
+                continue
+
+
+Con lo cual estos serían los pares OD con mayor flujo:
+
+![WhatsApp Image 2021-11-19 at 19 08 13](https://user-images.githubusercontent.com/88350743/142697926-2574b739-3a57-4b59-a2fa-0800bc9ffd33.jpeg)
+
+
+
+
