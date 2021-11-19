@@ -144,6 +144,9 @@ En la primera figura se puede observar el costo total por ruta para cada uno de 
    .                                                      Entrega 5
    
    
+   ![WhatsApp Image 2021-11-19 at 19 22 30](https://user-images.githubusercontent.com/88350743/142699022-c50e2785-cbf6-49ae-924e-803bdffc1db0.jpeg)
+
+   
 ¿Cómo seleccionó las zonas a incluir?
 
 Las zonas a incluir se seleccionaron mediante la siguiente parte del código:
@@ -178,7 +181,25 @@ Que suman un total de 164 zonas.
 
 ¿Cuántos viajes deberá asignar?
 
+Se calcularon la cantidad de viajes con la siguiente parte:
 
+    i=0
+    for wa in open('mod.csv'):
+        sl = wa.split(',')
+        o = int(sl[0])
+        d = int(sl[1])
+        dda = np.double(sl[2])
+        # print (o)
+        if o in id_zonas_a_graficar or d in id_zonas_a_graficar and dda > 100:
+            zona_all.append(o)
+            zona_all.append(d)
+            i+=dda
+
+    print("")
+    print ("Viajes totales : ",i)
+    print("")
+
+![WhatsApp Image 2021-11-19 at 19 22 43](https://user-images.githubusercontent.com/88350743/142699034-3944468f-0384-46b6-b6ba-0e42605ea6d5.jpeg)
 
 
 
